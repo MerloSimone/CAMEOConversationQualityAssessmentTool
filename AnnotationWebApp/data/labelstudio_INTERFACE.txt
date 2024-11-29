@@ -1,0 +1,39 @@
+<View>
+  <Text name="text" value="$text"/>
+  <View style="box-shadow: 2px 2px 5px #999;                padding: 20px; margin-top: 2em;                border-radius: 5px;">
+    <Header value="Choose text prop1"/>
+    <Choices name="prop1" toName="text" choice="single" showInLine="true">
+      <Choice value="1"/>
+      <Choice value="2"/>
+      <Choice value="3"/>
+      <Choice value="4"/>
+      <Choice value="5"/>
+    </Choices>
+  </View>
+  
+  <View style="box-shadow: 2px 2px 5px #999;                padding: 20px; margin-top: 2em;                border-radius: 5px;">
+    <Header value="Choose text prop2"/>
+    <Choices name="prop2" toName="text" choice="single" showInLine="true">
+      <Choice value="1"/>
+      <Choice value="2"/>
+      <Choice value="3"/>
+      <Choice value="4"/>
+      <Choice value="5"/>
+    </Choices>
+  </View>
+  
+  
+  <View style="box-shadow: 2px 2px 5px #999;                padding: 20px; margin-top: 2em;                border-radius: 5px;">
+    <Header value="Choose text prop3"/>
+    <Choices name="prop3" toName="text" choice="single" showInLine="true">
+      <Choice value="1"/>
+      <Choice value="2"/>
+      <Choice value="3"/>
+      <Choice value="4"/>
+      <Choice value="5"/>
+    </Choices>
+  </View>
+
+</View><!-- {
+  "data": {"text": "This is a great 3D movie that delivers everything almost right in your face."}
+} -->
