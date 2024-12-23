@@ -1,0 +1,50 @@
+<View>
+  <Text name="text" value="$text"/>
+  <View style="box-shadow: 2px 2px 5px #999;                padding: 20px; margin-top: 2em;                border-radius: 5px;">
+    <Header value="Fluency:"/>
+    <Choices name="fluency" toName="text" choice="single" showInLine="true">
+      <Choice value="1"/>
+      <Choice value="2"/>
+      <Choice value="3"/>
+      <Choice value="4"/>
+      <Choice value="5"/>
+    </Choices>
+  </View>
+  
+  <View style="box-shadow: 2px 2px 5px #999;                padding: 20px; margin-top: 2em;                border-radius: 5px;">
+    <Header value="Informativeness:"/>
+    <Choices name="informativeness" toName="text" choice="single" showInLine="true">
+      <Choice value="1"/>
+      <Choice value="2"/>
+      <Choice value="3"/>
+      <Choice value="4"/>
+      <Choice value="5"/>
+    </Choices>
+  </View>
+  
+  
+  <View style="box-shadow: 2px 2px 5px #999;                padding: 20px; margin-top: 2em;                border-radius: 5px;">
+    <Header value="Logicality or Inverse Perplexity:"/>
+    <Choices name="logicality" toName="text" choice="single" showInLine="true">
+      <Choice value="1"/>
+      <Choice value="2"/>
+      <Choice value="3"/>
+      <Choice value="4"/>
+      <Choice value="5"/>
+    </Choices>
+  </View>
+
+   <View style="box-shadow: 2px 2px 5px #999;                padding: 20px; margin-top: 2em;                border-radius: 5px;">
+    <Header value="Coherence:"/>
+    <Choices name="coherence" toName="text" choice="single" showInLine="true">
+      <Choice value="1"/>
+      <Choice value="2"/>
+      <Choice value="3"/>
+      <Choice value="4"/>
+      <Choice value="5"/>
+    </Choices>
+  </View>
+
+</View><!-- {
+  "data": {"text": "This is a great 3D movie that delivers everything almost right in your face."}
+} -->
